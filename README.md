@@ -1,4 +1,4 @@
 # pizza-app
 
-基于flutter和pizzjs的小程序引擎容器。
+基于flutter和pizzajs的小程序引擎容器。
 
