@@ -18,7 +18,7 @@ class Helper {
   static Future<String> root(String id) async {
     String local = hash(id);
     String root = (await getApplicationDocumentsDirectory()).path;
-    return '$root/_mini_/$local';
+    return '$root/_mini_/$local/dist';
   }
 
   static download(String url, String savePath) async {

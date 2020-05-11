@@ -19,8 +19,7 @@ class Mini {
     String _ = await Helper.root(id);
     String zip = '$_.zip';
 
-    File x = File(zip);
-
+    //File x = File(zip);
     //if (x.existsSync()) return true;
     await Helper.download('$GITHUB_URL/$id/archive/master.zip', zip);
     Helper.uncompress(zip);
